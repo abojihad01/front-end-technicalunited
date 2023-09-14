@@ -49,20 +49,22 @@ const Slider = memo(() => {
                       className={`flex-1 flex flex-col items-end mt-[100px] lg:mt-[100px] absolute container left-0 right-0 mx-auto `}
                     >
                       <h2
-                        className={`  text-[21px] sm:text-[35px] md:text-[40px] lg:text-[70px]   text-[#424242] text-right  ${
+                        className={`  text-[21px] sm:text-[35px] md:text-[40px] lg:text-[80px]   text-[#424242] text-right  ${
                           lan ? " text-left" : " text-right"
                         }`}
+                        style={{ fontWeight: 'bold', textAlign: 'center' }}
                         data-aos="fade-right"
                       >
                         {lan == false ? "Security" : "  حلول"}
                         <span className=" text-vividRed ">
-                          {lan == false ? "Solutions" : " أمنية "}
+                          {lan == false ? " Solutions" : " أمنية "}
                         </span>
                       </h2>
 
                       <div className={``}>
                         <p
-                          className={`text-[#424242] text-[14px] sm:text-[20px] lg:text-[40px] md:text-[30px] `}
+                          className={`text-[#424242] text-[14px] sm:text-[20px] lg:text-[42px] md:text-[30px] `}
+                          style={{ fontWeight: 'bold', marginRight: '15px' }}
                         >
                           {lan == false
                             ? "creative . innovation team work"

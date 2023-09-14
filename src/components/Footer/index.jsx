@@ -33,7 +33,7 @@ const Footer = memo(() => {
             dir={lan ? "rtl" : "ltr"}
             className="grid grid-cols-1  md:grid-cols-12 gap-2"
           >
-            <div className={`mb-5 col-span-4 md:my-10 lg:px-7 `}>
+            <div className={`mb-5 lg:col-span-4 col-span-6 md:my-10 lg:px-7 `}>
               <Link to={"/"}>
                 <img
                   className="h-[71px] w-[300px] mt-2 lg:mx-5 mb-5"
@@ -47,9 +47,13 @@ const Footer = memo(() => {
               </p>
               <p
                 dir="ltr"
-                className={`text-[37px] whitespace-nowrap	 !font-bold md:text-[36px] text-[#D71921] ${
+                className={`text-xl md:text-2xl lg:text-3xl font-bold text-[#D71921] ${
                   lan ? "text-end" : "text-start"
                 } my-5`}
+                style={{
+                  whiteSpace: 'nowrap', // Maintain the white-space nowrap behavior
+                  fontSize: '2rem',    // Adjust the font size as desired
+                }}
               >
                 (+966) 11 461 5299
               </p>
@@ -106,7 +110,7 @@ const Footer = memo(() => {
               </ul>
             </div>
 
-            <div className="mb-5 col-span-4 text-start flex flex-col lg:justify-between  ">
+            <div className="mb-5 lg:col-span-4 col-span-6 text-start flex flex-col lg:justify-between  ">
               <h4
                 className={`pd-4 capitalize relative  text-[26px] pb-1 font-bold
                 before:absolute before:bg-[#d71921] before:-bottom-1 before:h-[2px] before:w-[40px] before:content-['']

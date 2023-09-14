@@ -1,13 +1,18 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BsSearch, BsLinkedin } from "react-icons/bs";
-import { Search } from "../../pages/Search";
+import { Search } from "../../Pages/Search";
 import icon1 from "../../assets/icons/A.png";
 import Logo1 from "../../assets/logo1.png";
 import { CgClose, CgMenu } from "react-icons/cg";
 import NavMobile from "./NavMobile";
 import { ContextGlobal } from "../../ContextStore";
 import { navigation } from "./navigationData";
+import ArabicIcon from '../../assets/icons/3d/Arabic2.png';
+import EnglishIcon from '../../assets/icons/3d/English2.png';
+import LinkedinIcon from '../../assets/icons/3d/Linkedin2.png';
+import SearchIcon from '../../assets/icons/3d/Search2.png';
+
 
 const Header = () => {
   const Context = useContext(ContextGlobal);
@@ -262,31 +267,45 @@ const Header = () => {
                 onClick={() => {
                   setSearch(!openSearch);
                 }}
-                className="flex bg-[#424242] h-11 w-10 justify-center items-center hover:bg-vividRed"
+                className="flex bg-black h-11 w-10 justify-center items-center "
+                style={{ cursor: 'pointer' }}
               >
-                <BsSearch className=" text-lg text-white" />
+                <img
+                    src={SearchIcon}
+                    alt="EN Icon"
+                    className="text-white font-itcMedium text-[19px] text-center"
+                  />
                 {/* <i className="fas fa-search"></i> */}
               </div>
               <a
-                className="flex bg-[#424242] h-11 w-10 justify-center items-center hover:bg-vividRed"
+                className="flex bg-black h-11 w-10 justify-center items-center "
                 href="https://www.linkedin.com/company/technical-united-works-co./?originalSubdomain=sa"
               >
-                <BsLinkedin className=" text-lg text-white" />
+                <img
+                    src={LinkedinIcon}
+                    alt="EN Icon"
+                    className="text-white font-itcMedium text-[19px] text-center"
+                  />
               </a>
               <div
                 onClick={() => {
                   setlan(!lan);
                 }}
-                className="flex bg-[#424242] h-11 w-10 justify-center items-center hover:bg-vividRed"
+                className="flex bg-balck h-11 w-10 justify-center items-center "
+                style={{ cursor: 'pointer' }}
               >
                 {!lan ? (
-                  <h1 className=" text-white font-itcMedium text-[19px] text-center">
-                    AR
-                  </h1>
+                  <img
+                    src={ArabicIcon}
+                    alt="AR Icon"
+                    className="text-white font-itcMedium text-[19px] text-center"
+                  />
                 ) : (
-                  <h1 className=" text-white font-itcMedium text-[19px] text-center">
-                    EN
-                  </h1>
+                  <img
+                    src={EnglishIcon}
+                    alt="EN Icon"
+                    className="text-white font-itcMedium text-[19px] text-center"
+                  />
                 )}
               </div>
             </div>

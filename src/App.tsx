@@ -13,22 +13,22 @@ import {
   Coverage,
   ServedSectors,
   ProductDetails,
-} from "./pages";
+} from "./Pages";
 import { Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components";
-const HomeLazy = lazy(() => import("./pages/Home"));
-const ContactLazy = lazy(() => import("./pages/Contact"));
-const AboutUsLazy = lazy(() => import("./pages/AboutUs"));
-const CareersLazy = lazy(() => import("./pages/Careers"));
-const CoverageLazy = lazy(() => import("./pages/Coverage"));
-const ServedSectorsLazy = lazy(() => import("./pages/ServedSectors"));
-const DetailsLazy = lazy(() => import("./pages/details"));
-const ServicesLazy = lazy(() => import("./pages/services"));
-const BlogsLazy = lazy(() => import("./pages/blogs"));
-const BlogDetailsLazy = lazy(() => import("./pages/blog-details"));
-const ProductsLazy = lazy(() => import("./pages/Products"));
-const ProductDetailsLazy = lazy(() => import("./pages/Product-Details"));
-const ResultSearchLazy = lazy(() => import("./pages/ResultSearch"));
+const HomeLazy = lazy(() => import("./Pages/Home"));
+const ContactLazy = lazy(() => import("./Pages/Contact"));
+const AboutUsLazy = lazy(() => import("./Pages/AboutUs"));
+const CareersLazy = lazy(() => import("./Pages/Careers"));
+const CoverageLazy = lazy(() => import("./Pages/Coverage"));
+const ServedSectorsLazy = lazy(() => import("./Pages/ServedSectors"));
+const DetailsLazy = lazy(() => import("./Pages/details"));
+const ServicesLazy = lazy(() => import("./Pages/services"));
+const BlogsLazy = lazy(() => import("./Pages/blogs"));
+const BlogDetailsLazy = lazy(() => import("./Pages/blog-details"));
+const ProductsLazy = lazy(() => import("./Pages/Products"));
+const ProductDetailsLazy = lazy(() => import("./Pages/Product-Details"));
+const ResultSearchLazy = lazy(() => import("./Pages/ResultSearch"));
 
 function App() {
   return (
