@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Solution Development",
+    "titleA": "تطوير الحلول ",
+    "richDescription": "Technical United prides itself in its ability to adapt to the needs of our customers through creative and tailored solutions.",
+    "richDescriptionA": "تمتلك الشركة المتحدة الخبرة والمهارة اللازمة لتصميم وتوريد طلبات العملاء من الأنظمة الخاصة",
+    "description": "A technical crew of more than 250 engineers and technicians work in various disciplines of electrical, electronic and mechanical engineering work to provide high levels of technical support and logistics services to a broad customer base. Their professional skills enable them to offer exceptional maintenance service, essential for prolonging system reliability and reducing disruption to operations to a minimum. The coverage of the technical support and logistics services extends to all regions of Saudi Arabia through seven service areas covering all the cities and border crossing points. Central workshops have also been established for the mechanical, electrical and electronics work in Dammam, Jeddah and Riyadh. Maintenance is carried out not only on Technical United products but also on any other product provided by another company. The need to maintain the cost of operation and maintenance activities within the planned budgets is emphasized, in addition to optimizing spare parts consumption and control of the inventory levels. On- going training is key to developing technical staff capabilities and enhancing their competencies.",
+    "descriptionA": "يتوفر لدى الشركة المتحدة للأعمال التقنية طاقما فتيا مكونا من أكثر من ۲۵۰ مهندسا وفنيا مختصين في عدة مجالات كهربائية وإلكترونية وميكانيكية لتوفير الدعم الفني اللازم والخدمات اللوجستية للعملاء، بالإضافة لقدرتهم على تقديم خدمات صيانة استثنائية وضرورية للحفاظ على أداء الأنظمة بالكفاءة المطلوبة ولمدة أطول، مع تقليل نسبة الأعطال إلى الحد الأدني كما توفر تغطية كاملة من الدعم الفني واللوجستي لكافة مناطق المملكة العربية السعودية من خلال سبعة مناطق رئيسية، تشمل مدن المملكة كافة بما في ذلك المناطق الحدودية، وكذلك الورش المركزية للأعمال الميكانيكية والكهربية والإلكترونية في مدن الدمام وجدة والرياض، بالإضافة إلى تقديم خدمات الصيانة المنتجات الشركة المتحدة ومنتجات الشركات الأخرى على حد سواء ضمن عقود صيانة خاصة بهذه الأنظمة كما تقدم عناية قصوى لأهمية ضبط تكلفة التشغيل و أعمال الصيانة بعمل خطط للميزانية، إضافة إلى تحسين استهلاك قطع الغيار والتحكم في مستويات المخزون، وتأمين التدريب المستمر الذي هو المفتاح الرئيس لتطوير قدرات الموظفين التقنيين وتعزيز كفاءاتهم",
+    "image": "Solution-Development.png",
+    "path": "services",
+    "icon": "factory.png"
+  },
+  {
+    "id": "2",
+    "title": "Maintenance Service",
+    "titleA": "خدمات الصيانة",
+    "subTitleA": "تطوير الحلول طلبات الأنظمة الخاصة",
+    "richDescription": "Technical United prides itself in its ability to adapt to the needs of our customers through creative and tailored solutions.",
+    "richDescriptionA": "يتوفر لدى الشركة المتحدة للأعمال التقنية طاقماً فنياً مكوناً من أكثر من 250 مهندساً وفنياً متخصصين في عدة مجالات كهربائية.",
+    "description": "Technical United prides itself in its ability to adapt to the needs of our customers through creative and tailored solutions. If your company has special needs or requirements that cannot be fulfilled with existing innovations, our collective experience and knowledge can apply over a decade of engineering prowess in high-energy X-Ray systems to determine a solution that is customized to your specific needs. We do this by paying you a visit to gather more information. Our Technical and Development Teams will work diligently to collaborate with you a best solution to your requirements. We will then pool all of our existing resources to integrate various technologies that can hone in on a creative solution, even if it means working with one of our available partners who is best suited for the project.",
+    "descriptionA": "تمتلك الشركة المتحدة الخبرة والمهارة اللازمة لتصميم وتوريد طلبات العملاء من الأنظمة الخاصة، التي قد يحتاج العملاء من خلالها إلى حلول تقنية تتناسب مع طبيعة عملهم ، ما يضمن للعملاء الراحة ويوفر لهم المال والوقت، ويمنحهم حلولا تقنية لمشاكل التشغيل",
+    "descriptionTitleA2": "الميكنة الصناعية",
+    "descriptionA2": "يعتمد العالم اليوم على الصناعة الآلية سواء في الأعمال الاعتيادية أو الأعمال التي تحتاج إلى دقة في أدائها، فالتكنولوجيا تبدأ حيث انتهى الإنسان، وتوظف لتلبي المتطلبات المتعددة للأمن والمراقبة التي يحتاجها السوق، لذلك نوفر مجموعة واسعة من والوسائل والمنتجات ذات التكنولوجيا العالية، إضافة إلى توفير أنظمة خاصة تتوافق مع المؤسسات الصناعية ذات المتطلبات الخاصة",
+    "image": "Maintenance-Service.png",
+    "path": "services",
+    "icon": "renewable-energy.svg"
+  }
+]
